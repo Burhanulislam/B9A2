@@ -36,13 +36,13 @@ ul{
     border-radius: 35px;
 }
 ul li {
-    padding: 10px;
+    padding: 10px 21px;
     border-radius: 35px;
     transition: all linear 0.2s;
 }
 ul li:hover{
     background-color: rgb(230, 83, 60);
-    padding: 10px;
+    padding: 10px 20px;
     font-weight: bold;
 }
 .menu-item{
@@ -53,4 +53,38 @@ ul li:hover{
     font-weight: 800;
     font-style: italic;
     color: rgb(230, 83, 60);
+}
+/* banner part */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 110px;
+    color: rgb(255, 255, 255);
+}
+#shape{
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 100px;
+    font-weight: 600;
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn{
+    font-size: 18px ;
+    font-weight: 600;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-right: 15px;
+}
+.btn:hover{
+    background-color: rgb(230, 83, 60);
 }
