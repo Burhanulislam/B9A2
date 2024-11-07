@@ -249,3 +249,43 @@ ul li:hover{
     background-size: cover;   
     border-radius: 20px;
 }
+
+/* Footer part */
+#footer{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 66px 0 80px;
+}
+.footer-content1-title{
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    padding-bottom: 40px;
+}
+.footer-content1-subtitle{
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-h3{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.footer-item{
+    font-size: 23px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.border-row{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.caption{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
