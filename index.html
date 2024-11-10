@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body id="body">
     <!-- header part -->
-     <header id="header">
+    <header id="header">
         <nav class="container">
             <!-- main div -->
-          <div class="navbar flex">
-            <div class="logo">
-                <span class="fitness">Fitness</span>
+            <div class="navbar flex">
+                <div class="logo">
+                    <span class="fitness">Fitness</span>
+                </div>
+                <div class="menu">
+                    <ul class="flex">
+                        <li><a class="menu-item" href="#">Home</a></li>
+                        <li><a class="menu-item" href="#">Service</a></li>
+                        <li><a class="menu-item" href="#">Contact</a></li>
+                        <li><a class="menu-item" href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu">
+                    <span>
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
+                </div>
             </div>
-            <div class="menu">
-                <ul class="flex">
-                    <li><a class="menu-item" href="#">Home</a></li>
-                    <li><a class="menu-item" href="#">Service</a></li>
-                    <li><a class="menu-item" href="#">Contact</a></li>
-                    <li><a class="menu-item" href="#">About</a></li>
-                </ul>
-            </div>
-          </div>
         </nav>
         <!-- banner part -->
         <div class="banner container">
             <div class="banner-content">
                 <h1 class="banner-title">Get body in <br>
-                    <span id="shape">shape</span> & stay <br> healthy</h1>
-                <p class="banner-description">A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p> 
+                    <span id="shape">shape</span> & stay <br> healthy
+                </h1>
+                <p class="banner-description">A huge selection of health and fitness content, healthy recipes <br> and
+                    transformation stories to help you get fit and stay fit!</p>
                 <button class="btn">Join Club Now!</button>
-                <button class="btn">Download App</button>           
+                <button class="btn">Download App</button>
             </div>
             <div class="banner-img">
                 <div class="rating1 header-overlay">
@@ -48,15 +57,16 @@
                 </div>
             </div>
         </div>
-     </header>
-     <!-- main part  -->
-     <main>
+    </header>
+    <!-- main part  -->
+    <main>
         <!-- Change your habits section -->
         <section class="Section-One">
             <div class="section-1 container">
                 <div class="sec1-content">
                     <h2 class="sec-title">Change Your Habits</h2>
-                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+                    <p id="sec1-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br>
+                        access to a gym.</p>
                 </div>
                 <div class="change-container">
                     <div class="sec1-img">
@@ -89,8 +99,9 @@
                 <div class="sec2-content">
                     <h2 class="sec2-title">Run an Extra <br>
                         Mile Easily</h2>
-                    <p class="sec2-description">We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
-                    <button class="btn">Join Now</button>
+                    <p class="sec2-description">We believe fitness should be accessible to everyone,<br> everywhere,
+                        regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
+                    <button id="sec2-join" class="btn">Join Now</button>
                 </div>
                 <!-- Right -->
                 <div class="sec2-img">
@@ -102,8 +113,10 @@
         <section class="Section-Three container">
             <div class="bmi-calculator ">
                 <h2 class="bmi-title">BMI Calculator</h2>
-                <p class="bmi-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or 
-                <br> access to a gym.</p>
+                <p class="bmi-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or
+                    <br> access to a gym.
+                </p>
             </div>
         </section>
         <!-- BMI section 2-->
@@ -136,15 +149,20 @@
                 </div>
                 <div class="bmi2-item2">
                     <h3 class="bmi2-title2">Calculate your BMI</h3>
-                    <p class="bmi2-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless <br> of income or access to a gym. </p>
+                    <p class="bmi2-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless
+                        <br> of income or access to a gym.
+                    </p>
                     <div class="bmi2-form">
                         <span class="form-item">Height/cm</span>
                         <span class="form-item">Weight/kg</span>
                         <span class="form-item">Age</span>
-                        <span id="gender" class="form-item">Sex <span class="icon">v</span></span>
-                        <span id="factor" class="form-item activity">Select an activity factor <span class="icon">v</span></span>
+                        <span id="gender" class="form-item">Sex 
+                            <span class="icon"> <i id="angle" class="fa-solid fa-angle-down"></i> </span>
+                        </span>
+                        <span id="factor" class="form-item activity">Select an activity factor 
+                            <span class="icon"> <i id="angle" class="fa-solid fa-angle-down"></i> </span></span>
                     </div>
-                    <button class="btn">Calculate </button>
+                    <button id="bmi2-btn" class="btn">Calculate </button>
                 </div>
             </div>
         </section>
@@ -152,18 +170,19 @@
         <section class="Section-Four container">
             <div class="sec4-content">
                 <h2 class="sec4-title">Meet Our Team</h2>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access
+                    to a gym.</p>
             </div>
-            <div class="cntainer_main">
-                <div class="img-1">
-                    <div class="overlay">
-                        <h4>Jerome Bell</h4>
-                        <p>Trainer</p>
-                    </div>
-                </div>
+            <div class="cntainer_main">               
                 <div class="img-2">
                     <div class="overlay">
                         <h4>Cameron williamson</h4>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="img-1">
+                    <div class="overlay">
+                        <h4>Jerome Bell</h4>
                         <p>Trainer</p>
                     </div>
                 </div>
@@ -195,23 +214,26 @@
         </section>
         <!-- Extra Section -->
         <section class="Section-extra container">
-            <div class="extra-main">
-                <h3 class="extra-title">Let's Go For GYM</h3>
-                <p class="extra-subtitle">We need to keep our body fit & balanced. That's why we must exercise daily & <br> gym is better for everyone to keep our body feet , it's make confident & feel relax. </p>
-                <button  class="btn Morning">Morning Shift</button>
-                <button id="" class="btn Night">Night Shift</button>
+            <div class="extra-main ">
+                <h3 class="extra-title">Let's  Go For GYM</h3>
+                <p class="extra-subtitle">We need to keep our body fit & balanced. That's why we must exercise daily &
+                    <br> gym is better for everyone to keep our body feet , it's make confident & feel relax.
+                </p>
+                <button class="btn Morning ">Morning Shift</button>
+                <button  class="btn Night ">Night Shift</button>
             </div>
         </section>
     </main>
-    
     <!--footer part  -->
-     <footer id="footer">
+    <footer id="footer">
         <section class="container">
             <!-- main div -->
-             <div class="footer-container">
+            <div class="footer-container">
                 <div class="footer-content1">
                     <h2 class="footer-content1-title">Fitness</h2>
-                    <p class="footer-content1-subtitle">We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
+                    <p class="footer-content1-subtitle">We believe fitness should be accessible to everyone, <br>
+                        everywhere, regardless of income or access to a gym. With <br> hundreds of professional
+                        workouts.</p>
                 </div>
                 <div class="footer-content2">
                     <h3 class="footer-h3">Get Started</h3>
@@ -227,10 +249,13 @@
                     <p class="footer-item">Workout Libary</p>
                     <p class="footer-item">App Design</p>
                 </div>
-             </div>
-             <div class="border-row"></div>
-             <div class="caption">All right reserved @Fitness 2024</div>
+            </div>
+            <div class="border-row"></div>
+            <div class="caption">All right reserved @Fitness 2024</div>
         </section>
-     </footer>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/edbea7e833.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
