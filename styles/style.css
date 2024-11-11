@@ -543,8 +543,7 @@ ul li:hover{
                         /* banner part */
 .banner{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 .banner-title{
     font-size: 38px;
@@ -558,8 +557,10 @@ ul li:hover{
     font-weight: 600;
 }
 .banner-description{
+    font-size: 14px;
+    font-weight: 450;
     color: rgba(255, 255, 255, 0.5);
-    padding: 10px 5px 30px;
+    padding: 5px 0px 10px;
 }
 .btn{
     font-size: 15px ;
@@ -670,6 +671,7 @@ ul li:hover{
     display: flex;
     flex-direction: column;
     padding: 30px 33px 35px;
+    margin-bottom: 50px;
 }
 #sec2-join{
     margin: 10px 20px;
@@ -928,8 +930,9 @@ td{
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .caption{
+    color: rgba(255, 255, 255, 0.432);
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
